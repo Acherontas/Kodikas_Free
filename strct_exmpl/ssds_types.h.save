@@ -1,0 +1,22 @@
+#ifndef SSDS_TYPES_H
+#define SSDS_TYPES_H
+#include <vector>
+
+class ssds_types
+{
+    public:
+        ssds_types();
+        virtual ~ssds_types();
+        ssds_types(const ssds_types& other);
+        ssds_types& operator=(const ssds_types& other);
+        add();
+        rename_at();
+        get_at();
+        remove_at();
+        
+    protected:
+
+    private:
+};
+
+#endif // SSDS_TYPES_H

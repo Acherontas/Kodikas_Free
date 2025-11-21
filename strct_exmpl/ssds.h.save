@@ -1,0 +1,24 @@
+#ifndef SSDS_H
+#define SSDS_H
+
+
+class SSDS
+{
+    public:
+        SSDS();
+        virtual ~SSDS();
+        SSDS(const SSDS& other);
+        SSDS& operator=(const SSDS& other);
+        
+        int insert_in(int cnt,string onoma,string smart_value1,string smart_value2,string smart_value3);
+        int show_at(int cnt){ 
+        
+        
+        }
+
+    protected:
+
+    private:
+};
+
+#endif // SSDS_H

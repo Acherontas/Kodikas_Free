@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1763714321 source:/home/acherontas/codeblocks/strct_exmpl/ssds_types.cpp
+	"ssds_types.h"
+
+1763716650 /home/acherontas/codeblocks/strct_exmpl/ssds_types.h
+	<vector>
+	<string>
+	<iostream>
+
+1763729561 source:/home/acherontas/codeblocks/strct_exmpl/main.cpp
+	<iostream>
+	"ssds.h"
+
+1763716669 source:/home/acherontas/codeblocks/strct_exmpl/employee.cpp
+	"employee.h"
+
+1763716768 /home/acherontas/codeblocks/strct_exmpl/employee.h
+
+1763717928 source:/home/acherontas/codeblocks/strct_exmpl/ssds.cpp
+	"ssds.h"
+
+1763744284 /home/acherontas/codeblocks/strct_exmpl/ssds.h
+	<string>
+
