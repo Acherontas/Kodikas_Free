@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1763834444 source:/home/acherontas/codeblocks/class_of_item/main.cpp
+	<iostream>
+	"da_class.h"
+
+1763834141 /home/acherontas/codeblocks/class_of_item/da_class.h
+	<iostream>
+	<vector>
+	<string>
+
+1763833724 source:/home/acherontas/codeblocks/class_of_item/da_class.cpp
+	"da_class.h"
+

@@ -1,0 +1,39 @@
+#include "da_class.h"
+//ctor
+da_class::da_class(){}
+//dtor
+da_class::~da_class(){}
+//copy ctor
+da_class::da_class(const da_class& other){}
+// handle self assignment//assignment operator
+da_class& da_class::operator=(const da_class& rhs){if (this == &rhs) return *this; return *this;}
+
+int da_class::insertt(string name,string vlonne,string vlttwo,string vltthree){
+        this->cnti+=1;
+        cnt.push_back(this->cnti);
+        nm.push_back(name);
+        vlone.push_back(vlonne);
+        vltwo.push_back(vlttwo);
+        vlthree.push_back(vltthree);
+        return 0;
+}
+
+void da_class::show_at_pos(int pso){
+  cout<<cnt.at(pso) << " " << nm.at(pso) << " " << vlone.at(pso) << " " << vltwo.at(pso) << " " << vlthree.at(pso) <<"\n";
+}
+
+int da_class::delete_at_pos(int pso){
+    cnt.erase(cnt.begin()+pso);
+    nm.erase(nm.begin()+pso);
+    vlone.erase(vlone.begin()+pso);
+    vltwo.erase(vltwo.begin()+pso);
+    vlthree.erase(vlthree.begin()+pso);
+    return 0;
+}
+
+int da_class::show_all(){
+        for(int i=0;i<=cnt.size()-1;i++){
+                                            cout<<"@i as pos " << i << " " << cnt.at(i) << " " << nm.at(i) << " " << vlone.at(i) <<                                             " " << vltwo.at(i) << " " << vlthree.at(i) <<"\n";
+                                        }
+return 0;
+}
