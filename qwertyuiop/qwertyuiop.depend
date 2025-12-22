@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1766394028 source:/home/acherontas/codeblocks/qwertyuiop/main.cpp
+	<iostream>
+	<cstring>
+
