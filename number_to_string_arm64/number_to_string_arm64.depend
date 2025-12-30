@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1767085915 source:/home/acherontas/codeblocks/number_to_string_arm64/main.cpp
+	<iostream>
+	<sstream>
+	<iomanip>
+	<math.h>
+	"nmtostr.h"
+
+1767085915 /home/acherontas/codeblocks/number_to_string_arm64/include/nmtostr.h
+	<iostream>
+	<sstream>
+	<iomanip>
+	<math.h>
+
+1767085924 source:/home/acherontas/codeblocks/number_to_string_arm64/src/nmtostr.cpp
+	"nmtostr.h"
+	<iostream>
+	<sstream>
+	<iomanip>
+	<math.h>
+

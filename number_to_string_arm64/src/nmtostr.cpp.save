@@ -1,0 +1,36 @@
+#include "nmtostr.h"
+#include <iostream>
+#include <sstream>
+#include <iomanip>
+#include <math.h>
+using namespace std;
+nmtostr::nmtostr()
+{
+    //ctor
+}
+
+nmtostr::~nmtostr()
+{
+    //dtor
+}
+
+nmtostr::nmtostr(const nmtostr& other)
+{
+    //copy ctor
+}
+
+nmtostr& nmtostr::operator=(const nmtostr& rhs)
+{
+    if (this == &rhs) return *this; // handle self assignment
+    //assignment operator
+    return *this;
+}
+
+int nmtostr::stra(string stin){
+     for(int i=0;i<=stim.size()-1;i++){
+        if(stim.at(i)=='.'){break;}
+        if(stim.at(i)!='.'){stil+=sti.at(i);}
+    }
+
+return 0;
+}
