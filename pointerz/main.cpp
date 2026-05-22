@@ -71,5 +71,17 @@ int main(int argc,char** argv)
     *ckl='B';
     cout<<ckl<<"\n";
 
+    char mlk; 
+    cout<<"\n";
+    cout<<"\n";
+    xi=0;
+    for(;;){
+     mlk=argv[0][xi];
+     cout<< argv[0][xi];
+     if(mlk=='\0'){cout<<"\n";}
+     xi+=1;
+     if(xi==1784){cout<<"\n";cout<<"isixia xD\n";break;}
+    }
+    
     return 0;
 }
