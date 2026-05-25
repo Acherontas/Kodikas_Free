@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1779691349 source:/home/acherontas/codeblocks/pthreadd/main.cpp
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+

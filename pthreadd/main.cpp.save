@@ -1,0 +1,27 @@
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+using namespace std;
+
+struct share {
+    int i=0;
+};
+
+void *func(void *arg)
+{
+    share *my_arg = (struct share*)arg;
+    for(my_arg->i=0;my_arg->i<=10;my_arg->i++){cout<<my_arg->i<<"\n";}
+    return 0;
+}
+
+int main(void)
+{
+    pthread_t thr;
+    struct share share;
+    pthread_create(&thr, 0, func, &share);
+
+    pthread_join(thr, 0);  // join before "share" falls out of scope
+    cout<<share.i <<"\n";
+    return 0;
+}
